@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'Anton'; 
+	src: local('Anton'),
+		url(/css_1/fonts/Anton.woff2); 
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 1 auto;
+	background-image: url(../assets/img/paper.jpg);
+}
+
+.name {
+	font: 48px Anton, sans-serif;
+}
+
+.position {
+	font: bold 32px verdana, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+  }
+
+.header-menu-list {
+	display: flex;
+	justify-content: flex-end;
+	background-color: lightgray;
+	box-shadow: 0px 23px 20px 5px rgba(0, 35, 62, 0.2);
+}
+
+.header-menu-list li:nth-last-child(1) {
+	margin-right: 20px;
+}
+
+.header-menu-list a {
+	display: block;
+	padding: 20px;
+	font: bold 18px verdana, sans-serif;
+	color: black;
+}
+
+.header-menu-list a:hover {
+	background-color: black;
+	color: white;
+	transition-duration: 0.3s;
+}
+
+.image-container {
+	margin: 40px 0;
+	text-align: center;
+}
+
+.image-container img {
+	border-radius: 50%;
+}
+
+.name, 
+.position {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.main-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 18%;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	border: 2px dashed black;
+}
+
+.section:nth-last-child(1) {
+	margin-right: 0;
+}
+
+.main-section h2 {
+	margin: 20px auto;
+	padding: 0 5px;
+	font: bold 32px arial, sans-serif;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.contacts-list li,
+.hard-list li,
+.code-sample,
+.projects,
+.hobbies {
+	display: flex;
+	justify-content: center;
+	padding: 0 10px;
+	text-align: center ;
+	font:  14px arial, sans-serif;
+	line-height: 32px;
+}
+
+.contacts-list span,
+.hardskill {
+	font-weight: 700;
+}
+
+.main-section li:nth-last-child(1) {
+	margin-bottom: 20px;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+	padding:  10px;
+	background-image: url(../assets/img/paper.jpg);
+	border-top: 2px solid black;
+}
+
+.logo-container img {
+	width: 150px;
+}
+
+.github-container img {
+	width: 50px;
+}
+
+.copyright {
+	align-self: center;
+	font: bold 20px arial, sans-serif;
+}
