@@ -1,6 +1,6 @@
 # Zhivoglyadov Ivan								
 ## Position: Junior Frontend Developer
-![Avatar](/rsschool-cv/img/avatar.jpg)
+![Avatar](assets/img/avatar.jpg)
 ### Contact Information: 
 * Email: ivan.zhivoglyadov89@gmail.com
 * Telegram: @evan_longin
